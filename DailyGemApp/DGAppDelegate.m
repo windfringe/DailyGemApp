@@ -7,12 +7,13 @@
 //
 
 #import "DGAppDelegate.h"
+#import "DGRestKit.h"
 
 @implementation DGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [DGRestKit InitRestKit];
     return YES;
 }
 							
