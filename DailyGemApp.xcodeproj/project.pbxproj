@@ -39,9 +39,11 @@
 		1EEB90521789800B0075DAC8 /* DGDataObject+RestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB90511789800B0075DAC8 /* DGDataObject+RestKit.m */; };
 		1EEB9055178980170075DAC8 /* DGItem+RestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB9054178980170075DAC8 /* DGItem+RestKit.m */; };
 		1EEB905A178999010075DAC8 /* DGAuction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB9059178999010075DAC8 /* DGAuction.m */; };
-		1EEB9060178999010075DAC8 /* DGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB905F178999010075DAC8 /* DGUser.m */; };
 		1EEB9063178999430075DAC8 /* DGBid+RestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB9062178999430075DAC8 /* DGBid+RestKit.m */; };
 		1EEB906617899A6D0075DAC8 /* DGBid.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB906517899A6D0075DAC8 /* DGBid.m */; };
+		1EEB90691789C4360075DAC8 /* DGUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB90681789C4360075DAC8 /* DGUserTest.m */; };
+		1EEB906E1789C53B0075DAC8 /* AsyncSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB906D1789C53B0075DAC8 /* AsyncSenTestCase.m */; };
+		1EEB90721789D1CD0075DAC8 /* DGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB90711789D1CD0075DAC8 /* DGUser.m */; };
 		85249FA1C7414FE8B399AB1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 562DE6FEE4F3408888F6A56D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -105,12 +107,16 @@
 		1EEB9054178980170075DAC8 /* DGItem+RestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DGItem+RestKit.m"; sourceTree = "<group>"; };
 		1EEB9058178999010075DAC8 /* DGAuction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGAuction.h; sourceTree = "<group>"; };
 		1EEB9059178999010075DAC8 /* DGAuction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGAuction.m; sourceTree = "<group>"; };
-		1EEB905E178999010075DAC8 /* DGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGUser.h; sourceTree = "<group>"; };
-		1EEB905F178999010075DAC8 /* DGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGUser.m; sourceTree = "<group>"; };
 		1EEB9061178999420075DAC8 /* DGBid+RestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DGBid+RestKit.h"; sourceTree = "<group>"; };
 		1EEB9062178999430075DAC8 /* DGBid+RestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DGBid+RestKit.m"; sourceTree = "<group>"; };
 		1EEB906417899A6D0075DAC8 /* DGBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGBid.h; sourceTree = "<group>"; };
 		1EEB906517899A6D0075DAC8 /* DGBid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGBid.m; sourceTree = "<group>"; };
+		1EEB90671789C4360075DAC8 /* DGUserTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGUserTest.h; sourceTree = "<group>"; };
+		1EEB90681789C4360075DAC8 /* DGUserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGUserTest.m; sourceTree = "<group>"; };
+		1EEB906C1789C53B0075DAC8 /* AsyncSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSenTestCase.h; sourceTree = "<group>"; };
+		1EEB906D1789C53B0075DAC8 /* AsyncSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSenTestCase.m; sourceTree = "<group>"; };
+		1EEB90701789D1CD0075DAC8 /* DGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGUser.h; sourceTree = "<group>"; };
+		1EEB90711789D1CD0075DAC8 /* DGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGUser.m; sourceTree = "<group>"; };
 		2B8D1BC33BCF4013A8410915 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		562DE6FEE4F3408888F6A56D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -153,10 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				1E6C834F1789590B00F9D4C5 /* DailyGem.xcdatamodeld */,
+				1EEB90701789D1CD0075DAC8 /* DGUser.h */,
+				1EEB90711789D1CD0075DAC8 /* DGUser.m */,
 				1EEB906417899A6D0075DAC8 /* DGBid.h */,
 				1EEB906517899A6D0075DAC8 /* DGBid.m */,
-				1EEB905E178999010075DAC8 /* DGUser.h */,
-				1EEB905F178999010075DAC8 /* DGUser.m */,
 				1EEB9058178999010075DAC8 /* DGAuction.h */,
 				1EEB9059178999010075DAC8 /* DGAuction.m */,
 				1EEB9044178977200075DAC8 /* DGBucket.h */,
@@ -262,6 +268,8 @@
 				1EC596CB178943DB00391EE4 /* DailyGemAppTests.h */,
 				1EC596CC178943DB00391EE4 /* DailyGemAppTests.m */,
 				1EC596C6178943DB00391EE4 /* Supporting Files */,
+				1EEB90671789C4360075DAC8 /* DGUserTest.h */,
+				1EEB90681789C4360075DAC8 /* DGUserTest.m */,
 			);
 			path = DailyGemAppTests;
 			sourceTree = "<group>";
@@ -269,6 +277,8 @@
 		1EC596C6178943DB00391EE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1EEB906C1789C53B0075DAC8 /* AsyncSenTestCase.h */,
+				1EEB906D1789C53B0075DAC8 /* AsyncSenTestCase.m */,
 				1EC596C7178943DB00391EE4 /* DailyGemAppTests-Info.plist */,
 				1EC596C8178943DB00391EE4 /* InfoPlist.strings */,
 			);
@@ -437,9 +447,9 @@
 				1EEB90521789800B0075DAC8 /* DGDataObject+RestKit.m in Sources */,
 				1EEB9055178980170075DAC8 /* DGItem+RestKit.m in Sources */,
 				1EEB905A178999010075DAC8 /* DGAuction.m in Sources */,
-				1EEB9060178999010075DAC8 /* DGUser.m in Sources */,
 				1EEB9063178999430075DAC8 /* DGBid+RestKit.m in Sources */,
 				1EEB906617899A6D0075DAC8 /* DGBid.m in Sources */,
+				1EEB90721789D1CD0075DAC8 /* DGUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +458,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EC596CD178943DB00391EE4 /* DailyGemAppTests.m in Sources */,
+				1EEB90691789C4360075DAC8 /* DGUserTest.m in Sources */,
+				1EEB906E1789C53B0075DAC8 /* AsyncSenTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,8 +526,17 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"${PODS_AFNETWORKING_OTHER_LDFLAGS}",
+					"${PODS_RESTKIT_OTHER_LDFLAGS}",
+				);
+				PODS_AFNETWORKING_OTHER_LDFLAGS = "-framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration";
+				PODS_RESTKIT_OTHER_LDFLAGS = "-framework CFNetwork -framework CoreData -framework MobileCoreServices -framework Security -framework SystemConfiguration";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -538,8 +559,17 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"${PODS_AFNETWORKING_OTHER_LDFLAGS}",
+					"${PODS_RESTKIT_OTHER_LDFLAGS}",
+				);
+				PODS_AFNETWORKING_OTHER_LDFLAGS = "-framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration";
+				PODS_RESTKIT_OTHER_LDFLAGS = "-framework CFNetwork -framework CoreData -framework MobileCoreServices -framework Security -framework SystemConfiguration";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

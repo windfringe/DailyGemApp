@@ -16,8 +16,8 @@
 + (RKObjectMapping *)serializationMappingDefinition
 {
     RKObjectMapping *mapping = [RKObjectMapping requestMapping];
-    [mapping addAttributeMappingsFromDictionary:@{@"userID": @"id"}];
-    [mapping addAttributeMappingsFromArray:@[@"address", @"balance", @"createdAt",@"email",@"password",@"phone", @"username"]];
+//    [mapping addAttributeMappingsFromDictionary:@{@"userID": @"id"}];
+    [mapping addAttributeMappingsFromArray:@[@"userID", @"address", @"balance", @"createdAt",@"email",@"password",@"phone", @"username"]];
     
     return mapping;
 }
@@ -30,12 +30,6 @@
     mapping.identificationAttributes = @[@"userID"];
     [mapping addAttributeMappingsFromDictionary:@{@"id": @"userID"}];
     [mapping addAttributeMappingsFromArray:@[@"address", @"balance", @"createdAt",@"email",@"password",@"phone", @"username"]];
-    
-    [mapping addPropertyMapping:
-     [RKRelationshipMapping relationshipMappingFromKeyPath:@"bids"
-                                                 toKeyPath:@"bids"
-                                               withMapping:[DGAuction manageObjectMappingDefinition]]];
-
     return mapping;
 }
 

@@ -28,12 +28,6 @@
                                                  toKeyPath:@"item"
                                                withMapping:[DGItem manageObjectMappingDefinition]]];
     
-    
-    [mapping addPropertyMapping:
-     [RKRelationshipMapping relationshipMappingFromKeyPath:@"bids"
-                                                 toKeyPath:@"bids"
-                                               withMapping:[DGBid manageObjectMappingDefinition]]];
-    
     return mapping;
 }
 

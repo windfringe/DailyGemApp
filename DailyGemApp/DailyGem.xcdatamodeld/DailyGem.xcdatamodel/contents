@@ -41,7 +41,7 @@
     <entity name="DGUser" representedClassName="DGUser" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="balance" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="creaetedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
